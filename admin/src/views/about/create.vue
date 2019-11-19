@@ -96,7 +96,7 @@
     },
     methods: {
       ...mapActions({
-        createAbout: 'About/createAbout',
+        createAbout: 'about/createAbout',
         getCategoryList: 'category/getCategoryList'
       }),
       // 上传图片成功

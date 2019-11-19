@@ -150,7 +150,7 @@ const routers = [
       {
         path: '/about/create',
         name: 'about',
-        meta: {module: "/about/create", group: "about", title: '关于我们'},
+        meta: {module: "/about", group: "about", title: '关于我们'},
         component: (resolve) => require(['../views/about/create.vue'], resolve),
       },
       {

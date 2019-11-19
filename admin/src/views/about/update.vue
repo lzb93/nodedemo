@@ -97,8 +97,8 @@
     },
     methods: {
       ...mapActions({
-        getAbout: 'About/getAbout',
-        updateAbout: 'About/updateAbout',
+        getAbout: 'about/getAbout',
+        updateAbout: 'about/updateAbout',
         getCategoryList: 'category/getCategoryList'
       }),
       // 上传图片成功

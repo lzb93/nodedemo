@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import * as types from './mutation-types'
+import about from './modules/about'
 import admin from './modules/admin'
 import category from './modules/category'
 import comment from './modules/comment'
@@ -53,6 +54,7 @@ export default new Vuex.Store({
   actions,
   mutations,
   modules: {
+    about,
     admin,
     article,
     comment,

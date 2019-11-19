@@ -10,6 +10,12 @@ const menus = [
       path: "/",
       icon: "ios-navigate"
     },
+    // 关于我们
+    {
+        name: "关于我们",
+        path: "/about/update/3",
+        icon: "md-text"
+    },
     // 系统管理
     {
       name: "系统管理",
@@ -107,20 +113,7 @@ const menus = [
           icon: "md-list"
         }
       ]
-    },
-    // 关于我们
-    {
-        name: "关于我们",
-        path: "about",
-        icon: "md-text",
-        children: [
-          {
-            name: "关于我们",
-            path: "/about/create",
-            icon: "md-list"
-          }
-        ]
-      }
+    }
 
   ];
 
